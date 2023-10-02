@@ -11,9 +11,9 @@ function App() {
   // let [글제목2, b2] = useState("강남 우동 맛집");
   // let [글제목3, b3] = useState("파이썬독학");
   let [글제목, 글제목변경] = useState([
-    "우리 3명의 성공과 행복을 위하여",
-    "세림언니 우리 한번 달라져봅시다!",
-    "민서야 미안해 나 열심히 할게",
+    "우리는 하나다",
+    "드디어 콘센트 자리 GET",
+    "이제는 노는것보다 공부",
   ]);
   let [따봉, 따봉변경] = useState([0, 0, 0]);
   let [modal, setModal] = useState(false);
@@ -161,6 +161,7 @@ class Modal2 extends React.Component {
     this.state = {
       name: "lee",
       age: 26,
+      // 하잉
     };
   }
   render() {
